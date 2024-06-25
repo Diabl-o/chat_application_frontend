@@ -1,0 +1,102 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+.wrapper h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.wrapper h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 47.3px
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #776D6D;
+    border-radius: 30px;
+    color: #333333;
+    padding: 20px 45px 20px 45px;
+}
+
+.input-box input::placeholder{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 2px;
+    opacity: 30%;
+}
+
+.input-box .icon{
+    position: relative;
+    color: #333333;
+    opacity: 30%;
+    left: 2%;
+    transform: translateX(90%);
+    bottom: 70%;
+    height: 15px;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    background: #0575E6;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.wrapper .forget{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: 90%;
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.forget a{
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper .register{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+.register a{
+    color: #0575E6;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icons{
+    right: 30px;
+    position: absolute;
+    color: #333333;
+    opacity: 30%;
+    top: 35%;
+}
