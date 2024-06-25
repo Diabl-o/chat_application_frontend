@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./LoginForm.css";
+import { MdOutlineEmail } from "react-icons/md";
 import { FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Reset = () => {
@@ -12,9 +13,14 @@ const Reset = () => {
   
     return (
       <div className="wrapper">
-        <form action="" className="otp-form">
+        <form action="">
           <h1>Reset Password</h1>
           <h3>Forgetting something isn't a mistake ;)</h3>
+
+          <div className="input-box">
+          <input type="email" placeholder="Email Address" required />
+          <MdOutlineEmail className="icon" />
+        </div>
   
           <div className="input-box"> 
             <input
