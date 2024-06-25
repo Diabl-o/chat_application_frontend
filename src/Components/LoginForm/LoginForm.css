@@ -48,7 +48,7 @@
     opacity: 30%;
     left: 2%;
     transform: translateX(90%);
-    bottom: 70%;
+    bottom: 72%;
     height: 15px;
 }
 
@@ -62,6 +62,7 @@
     font-size: 14px;
     color: white;
     font-weight: 400;
+
 }
 
 .wrapper .forget{
@@ -77,6 +78,7 @@
 .forget a{
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .wrapper .register{ 
@@ -100,3 +102,4 @@
     opacity: 30%;
     top: 35%;
 }
+

@@ -30,26 +30,31 @@ const LoginForm = () => {
           />
           <FaLock className="icon" />
           {passwordVisible ? (
-            <FaEyeSlash className="icons toggle-password" onClick={togglePasswordVisibility} />
+            <FaEyeSlash
+              className="icons toggle-password"
+              onClick={togglePasswordVisibility}
+            />
           ) : (
-            <FaEye className="icons toggle-password" onClick={togglePasswordVisibility} />
+            <FaEye
+              className="icons toggle-password"
+              onClick={togglePasswordVisibility}
+            />
           )}
-        </div>
+        </div>  
 
-        <div className="forget">
-          <a href="#">Forgot Password?</a>
-        </div>
+          <div className="forget">
+          <a onClick={() => navigate("/Reset")}>Forgot Password?</a>
+          </div>
 
-        <button type="submit"> Login </button>
+          <button type="submit"> Login </button>
 
-
-
-        <div className="register">
-          <p>
-            Dont have an account?{" "}
-            <a onClick={() => navigate('/Register')}>Register now</a>
-          </p>
-        </div>
+          <div className="register">
+            <p>
+              Dont have an account?{" "}
+              <a onClick={() => navigate("/Register")}>Register now</a>
+            </p>
+          </div>
+          
       </form>
     </div>
   );
