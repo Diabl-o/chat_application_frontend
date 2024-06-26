@@ -3,7 +3,7 @@ import "./LoginForm.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { API } from "../../../../axios";
+import { API } from "../../../axios";
 import toast from "react-hot-toast";
 
 const LoginForm = () => {
