@@ -44,10 +44,10 @@ const Register = () => {
           </span>
         </div>
 
-        <button type="submit"> Register </button>
+        <button type="submit" /*onClick={()=>navigate()}*/> Register </button>
 
         <div className="register">
-          <p>
+          <p> 
             Already have an account?{" "}
             <a onClick={() => navigate('/')}>Login now</a>
           </p>
