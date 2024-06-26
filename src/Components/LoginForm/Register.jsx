@@ -29,7 +29,18 @@ const Register = () => {
     try {
       const response = await API.post("/auth/register", data);
       console.log(response.data);
-      toast.success(response.data.message);
+      toast.success(response.data.message, {
+        duration: 1000,
+      });
+      setTimeout(() => {
+        toast(
+          `We have sent an OTP to ${data.email}. Please check your email and verify it.`,
+          {
+            duration: 6000,
+          }
+        );
+        navigate("/OTPInput", { state: { email: data.email } });
+      }, 1000);
     } catch (error) {
       console.log(error);
       toast.error(error.response.data.message);
