@@ -1,0 +1,16 @@
+*{
+    background-color: #EFF6FC;
+}
+
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    float: left;
+    min-width: 133px;
+    min-height: 800px;
+    border-radius: 25px;
+    background-color: #6E00FF;
+    margin-right: 1700px;
+}

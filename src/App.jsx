@@ -4,6 +4,8 @@ import Register from "./Components/LoginForm/Register";
 import Reset from "./Components/LoginForm/Reset";
 import OTPInput from "./Components/LoginForm/OTPInput";
 import { Toaster } from "react-hot-toast";
+import Sidenav from "./Components/MessageUI/Sidenav";
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/Reset" element={<Reset />} />
           <Route path="/OTPInput" element={<OTPInput />} />
+          <Route path="/Sidenav" element={<Sidenav />} />
         </Routes>
       </BrowserRouter>
     </>
